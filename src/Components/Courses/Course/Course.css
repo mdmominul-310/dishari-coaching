@@ -1,0 +1,4 @@
+.cart-item:hover{
+    background-color:rgba(223, 207, 207, 0.411);
+    transform: scale(.95);
+}
