@@ -1,10 +1,12 @@
 import React from 'react';
 import Courses from '../Courses/Courses';
+import Slider from '../Slider/Slider';
 
-const Home = () => {
+const Home = (props) => {
     return (
         <div>
-            <Courses></Courses>
+            <Slider></Slider>
+            <Courses handleCart={props.handleCart}></Courses>
         </div>
     );
 };
